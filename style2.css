@@ -1,0 +1,97 @@
+
+
+
+.site-header.float-header {
+    background-color: white!important;
+
+}
+
+.slide-inner{
+    width: 50%;
+    left:10%;
+    margin-top:1%;
+    padding: 3%;
+	background-color: rgba(255, 255, 255, 0.5);
+	font-size: 0.5em;
+}
+
+#mainnav ul li a{
+    color: #58575c;
+}
+
+#mainnav ul li a:hover{
+    color: #01a7a5;
+}
+
+#secondary{
+    display: none;
+}
+#main{
+    padding: 0;
+}
+#primary{
+    width: 100%;
+}
+
+#home-bloc-yellow{
+    height: 600px;
+    width: 100%;
+    padding: 0;
+    margin:0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(background-pixels/bloc-text-yellow.png);
+    padding: 5%;
+    display: grid;
+
+}
+
+div#content.page-wrap{
+    width:100%;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    padding: 0!important;
+    margin: 0!important;
+}
+.elementor-section.elementor-section-boxed>.elementor-container {
+     max-width: 100%!important;
+}
+#home-bloc-nav img{
+    max-width:100%;
+}
+#home-bloc-nav{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5% 10% 5% 10%;
+}
+.items-nav-home{
+    width:25%;
+    margin: 2%;
+    background-color: #01a7a5;
+    position: relative;
+}
+.item-hover{
+    display: none;
+}
+.items-nav-home img:hover{
+    z-index: 100;
+}
+.items-nav-home:hover .item-hover{
+    display: block;
+    z-index: 200;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: rgba(1, 167, 165, 0.8);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+}
