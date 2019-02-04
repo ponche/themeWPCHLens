@@ -7,6 +7,7 @@
 * Jérémy Thery
 
 
-# th-meWpCHLens
-# themeWPCHLens
-# themeWPCHLens
+## Plugin à ajouter 
+
+* pods
+* social pug

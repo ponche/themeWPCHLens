@@ -17,7 +17,7 @@
 				<h2>L'hopital</h2>
 			</div>
 			<div id="blocs-yellow" class="row slide">
-				<div id="yellow-image" class="col-md-6"><img src="<?= get_stylesheet_directory_uri(); ?>/img/vue digitale copie.png" alt="">
+				<div id="yellow-image" class="col-md-6"><img src="<?= get_stylesheet_directory_uri(); ?>/img/vue_digitale_copie.png" alt="">
 				</div>
 				<div id="yellow-description" class="col-md-6">
 					<h4>Nos services</h4>
@@ -30,29 +30,31 @@
 			</div>
 		</div>
 		<div id="home-bloc-nav">
-				<div class="items-nav-home">
-					<a href="">
-					<img src="<?= get_stylesheet_directory_uri(); ?>/img/item1.png" alt="">
-					<div class="item-hover"><p><strong>Visualiser</strong><br> le projet</p></div>
-					</a>
-				</div>
-			<div class="items-nav-home">
-				<a href=""><img src="<?= get_stylesheet_directory_uri(); ?>/img/item2.png" alt=""></a>
+			<div class="items-nav-home col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<a href="">
+				<img src="<?= get_stylesheet_directory_uri(); ?>/img/item1.png" alt="">
+				<div class="item-hover"><p><strong>Visualiser</strong><br> le projet</p></div>
+				</a>
+			</div>
+			<div class="items-nav-home col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<a href="">
+				<img src="<?= get_stylesheet_directory_uri(); ?>/img/item2.png" alt="">
+				</a>
 				<div class="item-hover"><p><strong>Visualiser</strong><br> le projet</p></div>
 			</div>
-			<div class="items-nav-home">
+			<div class="items-nav-home col-lg-4 col-md-6 col-sm-6 col-xs-12">
 				<a href=""><img src="<?= get_stylesheet_directory_uri(); ?>/img/item3.png" alt=""></a>
 				<div class="item-hover"><p><strong>Visualiser</strong><br> le projet</p></div>
 			</div>
-			<div class="items-nav-home">
+			<div class="items-nav-home col-lg-4 col-md-6 col-sm-6 col-xs-12">
 				<a href=""><img src="<?= get_stylesheet_directory_uri(); ?>/img/item4.png" alt=""></a>
 				<div class="item-hover"><p><strong>Visualiser</strong><br> le projet</p></div>
 			</div>
-			<div class="items-nav-home">
+			<div class="items-nav-home col-lg-4 col-md-6 col-sm-6 col-xs-12">
 				<a href=""><img src="<?= get_stylesheet_directory_uri(); ?>/img/item5.jpg" alt=""></a>
 				<div class="item-hover"><p><strong>Visualiser</strong><br> le projet</p></div>
 			</div>
-			<div class="items-nav-home">
+			<div class="items-nav-home col-lg-4 col-md-6 col-sm-6 col-xs-12">
 				<a href=""><img src="<?= get_stylesheet_directory_uri(); ?>/img/item6.jpg" alt=""></a>
 				<div class="item-hover"><p><strong>Visualiser</strong><br> le projet</p></div>
 			</div>
