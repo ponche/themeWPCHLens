@@ -12,8 +12,22 @@
 		<?php the_title( '<h1 class="title-post entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 	<?php if ( is_front_page() ) :  ?>
-		<div id="home-bloc-yellow">
-			<h1>Salut les gens !!!</h1>
+		<div id="home-bloc-yellow" class="container">
+			<div id="yellow-title">
+				<h2>L'hopital</h2>
+			</div>
+			<div id="blocs-yellow" class="row slide">
+				<div id="yellow-image" class="col-md-6"><img src="<?= get_stylesheet_directory_uri(); ?>/img/vue digitale copie.png" alt="">
+				</div>
+				<div id="yellow-description" class="col-md-6">
+					<h4>Nos services</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum imperdiet est, id placerat purus molestie ut. 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum imperdiet est, id placerat purus molestie ut. 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum imperdiet est, id placerat purus molestie ut. 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum imperdiet est, id placerat purus molestie ut. 
+					</p>
+				</div>
+			</div>
 		</div>
 		<div id="home-bloc-nav">
 				<div class="items-nav-home">

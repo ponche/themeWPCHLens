@@ -34,15 +34,17 @@
 }
 
 #home-bloc-yellow{
-    height: 600px;
+    /* height: 500px; */
     width: 100%;
-    padding: 0;
+    padding: 2% !important;
     margin:0;
     background-repeat: no-repeat;
     background-size: 100%;
     background-image: url(background-pixels/bloc-text-yellow.png);
-    padding: 5%;
+    padding: 2%;
     display: grid;
+}
+#home-bloc-yellow h2{
 
 }
 
@@ -94,4 +96,16 @@ div#content.page-wrap{
     align-items: center;
     justify-content: center;
     font-size: 3em;
+}
+
+#blocs-yellow{
+    margin: 0% 6% 0% 6%;
+}
+#yellow-image{
+}
+#yellow-description{
+    
+}
+#yellow-image img{
+    width: 100%;
 }
