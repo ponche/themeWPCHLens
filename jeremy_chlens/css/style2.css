@@ -55,7 +55,7 @@ p {
     .cercle-div {
         height: 140px;
         width: 140px;
-        background-color: blue;
+        border: 1px solid black;
         border-radius: 50%;
         display: initial;
         margin: 8px;

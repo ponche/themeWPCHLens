@@ -27,10 +27,10 @@ h1 {
   position: relative;
 }
 
-.bg-test-1, .bg-test-2, .bg-test-3 {
+/* .bg-test-1, .bg-test-2, .bg-test-3 {
   position: absolute;
   display: none;
-}
+} */
 
 /* .bg-test-2 { 
   position: absolute;
