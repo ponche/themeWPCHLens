@@ -166,3 +166,256 @@ PAGE D'ACTUALITE
 .entry-header{
     display: none;
 }
+
+
+
+
+
+
+.faq-text{
+    padding-bottom: 1em;
+    padding-top: 1.5em;
+  }
+  
+  /* FAQ Buttons ----------------------------------------------------------------------------- */
+  
+  .tags-nav.faq{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tags-nav {
+      width: 80%;
+      margin: 1em auto;
+  }
+  
+  .tag-link:link,
+  .tag-link:visited {
+      display: inline-block;
+      color: rgb(226, 33, 107);
+      background-color: rgb(255, 255, 255);
+      text-decoration: none;
+      padding: .40em .8em;
+    border: 2px solid rgb(226, 33, 107);
+      margin: .125em;
+  }
+  
+  .faq-title{
+    padding-top: 2em;
+  }
+  
+  .tag-link a{
+    color: rgb(226, 33, 107)!important;
+  }
+  
+  
+  
+  /* Cards Grid ----------------------------------------------------------------------------- */
+  
+  .faqGrid {
+    padding: 15px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  /* FAQ Expending Cards ----------------------------------------------------------------------------- */
+  
+  .cards {
+      padding: 15px;
+      display: flex;
+      flex-flow: row wrap;
+  }
+  
+  .card {
+      background-color: transparent;
+      border: 0px;
+  }
+    
+    .card {
+      margin: 15px;
+      width: calc((100% / 3) - 30px);
+      transition: all 0.2s ease-in-out;
+    }
+    @media screen and (max-width: 991px) {
+      .card {
+        width: calc((100% / 2) - 30px);
+      }
+    }
+    @media screen and (max-width: 767px) {
+      .card {
+        width: 100%;
+      }
+    }
+    .card:hover .card__inner {
+      background-color: rgb(226, 33, 107);
+      -webkit-transform: scale(1.05);
+              transform: scale(1.05);
+    }
+    .card__inner {
+      width: 100%;
+      padding: 20px;
+      position: relative;
+      cursor: pointer;
+      background-color: #949fb0;
+      color: #eceef1;
+      text-align: center;
+      transition: all 0.2s ease-in-out;
+    }
+    .card__inner:after {
+      transition: all 0.3s ease-in-out;
+    }
+    .card__inner .fa {
+      width: 100%;
+      margin-top: .25em;
+    }
+    .card__expander {
+      transition: all 0.2s ease-in-out;
+      background-color: #333a45;
+      width: 100%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #eceef1;
+      padding-right: 2em;
+      padding-left: 2em;
+    }
+    .card__expander .fa {
+      font-size: 0.75em;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+    .card__expander .fa:hover {
+      opacity: 0.9;
+    }
+    .card.is-collapsed .card__inner:after {
+      content: "";
+      opacity: 0;
+    }
+    .card.is-collapsed .card__expander {
+      max-height: 0;
+      min-height: 0;
+      overflow: hidden;
+      margin-top: 0;
+      opacity: 0;
+    }
+    .card.is-expanded .card__inner {
+      background-color: rgb(226, 33, 107);
+    }
+    .card.is-expanded .card__inner:after {
+      content: "";
+      opacity: 1;
+      display: block;
+      height: 0;
+      width: 0;
+      position: absolute;
+      bottom: -30px;
+      left: calc(50% - 15px);
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-bottom: 15px solid #333a45;
+    }
+    .card.is-expanded .card__inner .fa:before {
+      content: "\f115";
+    }
+    .card.is-expanded .card__expander {
+      max-height: 1000px;
+      min-height: 200px;
+      overflow: visible;
+      margin-top: 30px;
+      opacity: 1;
+    }
+    .card.is-expanded:hover .card__inner {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    .card.is-inactive .card__inner {
+      pointer-events: none;
+      opacity: 0.5;
+    }
+    .card.is-inactive:hover .card__inner {
+      background-color: #949fb0;
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    
+    @media screen and (min-width: 992px) {
+      .card:nth-of-type(3n+2) .card__expander {
+        margin-left: calc(-100% - 30px);
+      }
+    
+      .card:nth-of-type(3n+3) .card__expander {
+        margin-left: calc(-200% - 60px);
+      }
+    
+      .card:nth-of-type(3n+4) {
+        clear: left;
+      }
+    
+      .card__expander {
+        width: calc(300% + 60px);
+      }
+    }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      .card:nth-of-type(2n+2) .card__expander {
+        margin-left: calc(-100% - 30px);
+      }
+    
+      .card:nth-of-type(2n+3) {
+        clear: left;
+      }
+    
+      .card__expander {
+        width: calc(200% + 30px);
+      }
+    }
+    
+  
+  
+  /* FAQ Form ----------------------------------------------------------------------------- */
+  
+  .container.form{
+      padding-top: 2em;
+      padding-bottom: 1em;
+  }
+  
+  .container-fluid.faq{
+      margin-top: 2em;
+      background-color: rgb(226, 33, 107);
+  }
+  
+  .container-fluid.faq p, h3{
+      color:  rgb(255, 255, 255);
+  }
+  
+  
+  /* FAQ Form ----------------------------------------------------------------------------- */
+  
+  .btn.btn-primary{
+      background-color: rgb(255, 255, 255);
+      border-color: rgb(255, 255, 255);
+      color:  rgb(226, 33, 107);
+  }
+  
+  /* Footer ----------------------------------------------------------------------------- */
+  
+  .footer{
+      height: 200px;
+      background-color: rgb(20, 20, 20);
+  }
+  
+  /* TRAVAUX ----------------------------------------------------------------------------- */
+  
+  @import 'https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css';
+  
+  @import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
+  
+  .tl-timeline {
+      font-family: font-family: 'Lato', sans-serif;
+  }
+  
+   .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class^=tl-icon-], .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class*=" tl-icon-"], .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
+      color: #5d5d5d;
+    }
