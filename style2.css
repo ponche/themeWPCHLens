@@ -1,3 +1,8 @@
+
+/* -----------------------------------------------------
+PAGE D'ACCUEIL 
+------------------------------------------------------*/
+
 .site-header.float-header {
     background-color: white!important;
 
@@ -121,12 +126,43 @@ div#content.page-wrap{
     #home-bloc-yellow{
         background-image: url(background-pixels/bloc-text-yellow-sm.png);
     }
-    #home-bloc-yellow img{
-
-    }
     .site-header {
         background-color: #fff;
     }.btn-menu:before {
         color: #000;
     }
  }
+
+ /* -----------------------------------------------------
+PAGE D'ACTUALITE
+-------------------------------------------------------*/
+.posts-layout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.hentry:first-child{
+    padding-top:50px !important;
+}
+.post-wrap .posts-layout article{
+    background-color:#f8d41b;
+    width: 45%;
+    border:10px dashed white;
+}
+.entry-thumb{
+    width:100%;
+    display: flex;
+    justify-content: center;
+   
+} 
+.entry-thumb img{
+    width:20%;
+   
+} 
+.entry-header{
+    display: none;
+}
