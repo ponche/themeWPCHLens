@@ -475,3 +475,8 @@ function sydney_welcome_admin_notice() {
 }
 add_action( 'admin_init', array( 'PAnD', 'init' ) );
 add_action( 'admin_notices', 'sydney_welcome_admin_notice' );
+
+
+// disable file editing in the admin 
+define( 'DISALLOW_FILE_EDIT', true) ; 
+
