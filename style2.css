@@ -166,6 +166,9 @@ PAGE D'ACTUALITE
 .entry-header{
     display: none;
 }
+.entry-content , .entry-footer {
+  padding: 50px;
+}
 
 
 
