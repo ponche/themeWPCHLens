@@ -1,13 +1,18 @@
 # Thème forké pour le CH de lens
 
-## Utilisateurs
+## Dévellopeurs 
 
 * Justine Moreau
 * Gwenaelle Lohard
 * Jérémy Thery
+* Rémi PONCHE
 
-
-## Plugin à ajouter 
+## Plugin utiliser dans le thème
 
 * pods
-* social pug
+* Social Pug
+* canvasio3D Light
+* Classic Editor
+* Duplicator 
+
+ 
