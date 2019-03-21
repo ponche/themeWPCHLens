@@ -24,7 +24,7 @@
 
 <body <?php body_class(); ?>>
 
-<?php do_action('sydney_before_site'); //Hooked: sydney_preloader() ?>
+<?php // do_action('sydney_before_site'); //Hooked: sydney_preloader() ?>
 
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'sydney' ); ?></a>
