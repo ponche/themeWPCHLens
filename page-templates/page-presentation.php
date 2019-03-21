@@ -57,7 +57,7 @@ Template Name: Page Présentation
                 <button type="button" class="btn btn-outline-secondary">Répartition des bâtiments</button>
             </div>
             <div class="col-6">
-                <img src="images/presentation/architecture.png" alt="test" width="600" height="800">
+                <img src="<?= get_stylesheet_directory_uri(); ?>/images/presentation/architecture.png" alt="test" width="600" height="800">
             </div>
         </div>
     </div>
@@ -98,7 +98,7 @@ Template Name: Page Présentation
                 </p>
             </div>
             <div class="col-6">
-                <img src="ressources/images/technologie.jpg" alt="test" width="600" height="800">
+                <img src="<?= get_stylesheet_directory_uri(); ?>/images/presentation/technologie.jpg" alt="test" width="600" height="800">
             </div>
         </div>
     </div>
@@ -142,7 +142,7 @@ Template Name: Page Présentation
                 </div>
             </div>
             <div class="col-6">
-                <img src="images/presentation/access.jpg" alt="test" width="600" height="800">
+                <img src="<?= get_stylesheet_directory_uri(); ?>/images/presentation/access.jpg" alt="test" width="600" height="800">
             </div>
         </div>
     </div>
@@ -168,13 +168,13 @@ Template Name: Page Présentation
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="images/presentation/plante1.jpg" class="d-block w-100" alt="Paysage">
+                            <img src="<?= get_stylesheet_directory_uri(); ?>/images/presentation/plante1.jpg" class="d-block w-100" alt="Paysage">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/presentation/plante2.jpg" class="d-block w-100" alt="Paysage">
+                            <img src="<?= get_stylesheet_directory_uri(); ?>/images/presentation/plante2.jpg" class="d-block w-100" alt="Paysage">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/presentation/plante.jpg" class="d-block w-100" alt="Paysage">
+                            <img src="<?= get_stylesheet_directory_uri(); ?>/images/presentation/plante.jpg" class="d-block w-100" alt="Paysage">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -188,7 +188,7 @@ Template Name: Page Présentation
                 </div>
             </div>
             <div class="col-6">
-                <img src="images/presentation/paysage.jpg" alt="test" width="600" height="800">
+                <img src="<?= get_stylesheet_directory_uri(); ?>/images/presentation/paysage.jpg" alt="test" width="600" height="800">
             </div>
         </div>
     </div>
