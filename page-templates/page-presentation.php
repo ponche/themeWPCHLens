@@ -8,23 +8,9 @@ Template Name: Page Présentation
 	get_header();
 ?>
 
-<!DOCTYPE html>
-<html lang="fr">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/main.js" defer></script>
-    <title>Aménagement</title>
-</head>
 
-<body>
+
     <br><br>
     <!-- Title and paragraph -->
     <div class="container">
@@ -71,7 +57,7 @@ Template Name: Page Présentation
                 <button type="button" class="btn btn-outline-secondary">Répartition des bâtiments</button>
             </div>
             <div class="col-6">
-                <img src="ressources/images/architecture.png" alt="test" width="600" height="800">
+                <img src="images/presentation/architecture.png" alt="test" width="600" height="800">
             </div>
         </div>
     </div>
@@ -156,7 +142,7 @@ Template Name: Page Présentation
                 </div>
             </div>
             <div class="col-6">
-                <img src="ressources/images/access.jpg" alt="test" width="600" height="800">
+                <img src="images/presentation/access.jpg" alt="test" width="600" height="800">
             </div>
         </div>
     </div>
@@ -182,13 +168,13 @@ Template Name: Page Présentation
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="ressources/images/plante1.jpg" class="d-block w-100" alt="Paysage">
+                            <img src="images/presentation/plante1.jpg" class="d-block w-100" alt="Paysage">
                         </div>
                         <div class="carousel-item">
-                            <img src="ressources/images/plante2.jpg" class="d-block w-100" alt="Paysage">
+                            <img src="images/presentation/plante2.jpg" class="d-block w-100" alt="Paysage">
                         </div>
                         <div class="carousel-item">
-                            <img src="ressources/images/plante.jpg" class="d-block w-100" alt="Paysage">
+                            <img src="images/presentation/plante.jpg" class="d-block w-100" alt="Paysage">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -202,7 +188,7 @@ Template Name: Page Présentation
                 </div>
             </div>
             <div class="col-6">
-                <img src="ressources/images/paysage.jpg" alt="test" width="600" height="800">
+                <img src="images/presentation/paysage.jpg" alt="test" width="600" height="800">
             </div>
         </div>
     </div>
