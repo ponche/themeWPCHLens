@@ -15,10 +15,10 @@ Template Name: Page Présentation
     <!-- Title and paragraph -->
     <div class="container">
         <div class="row">
-            <div class="col-8">
+            <div class="col-xs-8">
                 <h1>Présentation</h1>
             </div>
-            <div class="col-4 end-col">
+            <div class="col-xs-4 end-col">
                 le projet en chiffre
                 <i class="far fa-question-circle fa-2x Show"></i>
                 <i class="far fa-question-circle fa-2x Hide"></i>
@@ -97,7 +97,7 @@ Template Name: Page Présentation
                     devient acteur de sa santé)
                 </p>
             </div>
-            <div class="col-6">
+            <div class="col-xs-6">
                 <img src="<?= get_stylesheet_directory_uri(); ?>/images/presentation/technologie.jpg" alt="test" width="600" height="800">
             </div>
         </div>
@@ -105,7 +105,7 @@ Template Name: Page Présentation
     <!-- Accessibilité -->
     <div class="container bg-test-2">
         <div class="row justify-content-md-center">
-            <div class="col-6 text-title-div">
+            <div class="col-xs-6 text-title-div">
                 <h2>Accessibilité</h2>
                 <p class="space-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex error dolorum
                     modi doloremque fugit
@@ -141,7 +141,7 @@ Template Name: Page Présentation
                     </button>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-xs-6">
                 <img src="<?= get_stylesheet_directory_uri(); ?>/images/presentation/access.jpg" alt="test" width="600" height="800">
             </div>
         </div>
@@ -149,7 +149,7 @@ Template Name: Page Présentation
     <!-- Paysage  -->
     <div class="container bg-test-3">
         <div class="row justify-content-md-center">
-            <div class="col-6 text-title-div">
+            <div class="col-xs-6 text-title-div">
                 <h2>Paysage</h2>
                 <p class="space-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex error dolorum
                     modi doloremque fugit
@@ -187,19 +187,19 @@ Template Name: Page Présentation
                     </a>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-xs-6">
                 <img src="<?= get_stylesheet_directory_uri(); ?>/images/presentation/paysage.jpg" alt="test" width="600" height="800">
             </div>
         </div>
     </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
 
 
 <?php get_footer() ; ?>
