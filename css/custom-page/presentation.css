@@ -1,3 +1,4 @@
+/* Pourquoi faire ça sur body ? 
 body {
     margin: 0;
     padding: 0;
@@ -58,16 +59,19 @@ body {
     align-items: start;
     flex-direction: column;
     font-size: 0.9em;
+    background-color: aqua ; 
   }
   
   .space-paragraph, h2 {
     margin-bottom: 50px;
+    background-color: blue ; 
   }
   
   /* carousel */
   .carousel {
     height: 155px;
     width: 160px;
+
   }
   
   /* Icon Question */
@@ -79,6 +83,7 @@ body {
     padding:5px;
     display:none;
     margin: 0;
+    background-color: green ; 
   }
   
   .Hide
