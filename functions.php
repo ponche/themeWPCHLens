@@ -180,8 +180,9 @@ function sydney_scripts() {
 	wp_enqueue_style( 'sydney-ie9', get_template_directory_uri() . '/css/ie9.css', array( 'sydney-style' ) );
 	wp_style_add_data( 'sydney-ie9', 'conditional', 'lte IE 9' );
 
-	// code add by my ( PONCHE ) 
+	// code add by me ( PONCHE ) 
 	wp_enqueue_style('my-theme-presentation', get_template_directory_uri() . '/css/custom-page/presentation.css' ); 
+	wp_enqueue_script('my-script-presentation', get_template_directory_uri() . '/js/presentation.js') ; 
 
 	wp_enqueue_script( 'sydney-scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'),'', true );
 
