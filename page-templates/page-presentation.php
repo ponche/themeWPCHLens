@@ -30,7 +30,7 @@ Template Name: Page Présentation
     <!-- Architect -->
     <div class="container bg-test">
         <div class="row">
-            <div class="col-xs-6 text-title-div">
+            <div class="col-6 text-title-div">
                 <h2>Architecture</h2>
                 <p class="space-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex error dolorum
                     modi doloremque fugit
@@ -56,7 +56,7 @@ Template Name: Page Présentation
                 </p>
                 <button type="button" class="btn btn-outline-secondary">Répartition des bâtiments</button>
             </div>
-            <div class="col-xs-6">
+            <div class="col-6">
                 <img src="<?= get_stylesheet_directory_uri(); ?>/images/presentation/architecture.png" alt="test" width="600" height="800">
             </div>
         </div>
@@ -64,7 +64,7 @@ Template Name: Page Présentation
     <!-- Techno -->
     <div class="container bg-test-1">
         <div class="row justify-content-md-center">
-            <div class="col-xs-6 text-title-div">
+            <div class="col-6 text-title-div">
                 <h2>Technologie</h2>
                 <p class="space-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex error dolorum
                     modi doloremque fugit
