@@ -182,7 +182,8 @@ function sydney_scripts() {
 
 	// code add by me ( PONCHE ) 
 	wp_enqueue_style('my-theme-presentation', get_template_directory_uri() . '/css/custom-page/presentation.css' ); 
-	wp_enqueue_script('my-script-presentation', get_template_directory_uri() . '/js/presentation.js') ; 
+	wp_enqueue_script('my-script-presentation', get_template_directory_uri() . '/js/presentation.js', array('jquery')) ;
+	wp_enqueue_script('my-script-faq', get_template_directory_uri(). '/js/faq.js', array('jquery')) ;  
 
 	wp_enqueue_script( 'sydney-scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'),'', true );
 
@@ -484,6 +485,14 @@ add_action( 'admin_init', array( 'PAnD', 'init' ) );
 add_action( 'admin_notices', 'sydney_welcome_admin_notice' );
 
 
-// disable file editing in the admin 
-define( 'DISALLOW_FILE_EDIT', true) ; 
+// // disable file editing in the admin 
+// define( 'DISALLOW_FILE_EDIT', true) ; 
+
+
+// // Test pour Jquery 
+// function typed_init() 
+// {
+// 	echo '<script>
+// 	jQuery(function'
+// }
 
