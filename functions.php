@@ -237,6 +237,9 @@ add_action('after_switch_theme', 'sydney_disable_elementor_globals');
  */
 function sydney_enqueue_bootstrap() {
 	wp_enqueue_style( 'sydney-bootstrap', get_template_directory_uri() . '/css/bootstrap/bootstrap.min.css', array(), true );
+	wp_enqueue_style( 'sydney-bootstrap-custom', get_template_directory_uri() . '/css/bootstrap/bootstrap_custom.css', array(), true );
+	wp_enqueue_style( 'sydney-bootstrap-projets', get_template_directory_uri() . '/css/bootstrap/bootstrap_projets.css', array(), true );
+
 }
 add_action( 'wp_enqueue_scripts', 'sydney_enqueue_bootstrap', 9 );
 
