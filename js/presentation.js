@@ -1,10 +1,10 @@
-$('.Show').click(function() {
-    $('#target').show(800);
-    $('.Show').hide(0);
-    $('.Hide').show(0);
+jQuery('.Show').click(function() {
+    jQuery('#target').show(800);
+    jQuery('.Show').hide(0);
+    jQuery('.Hide').show(0);
   });
-  $('.Hide').click(function() {
-    $('#target').hide(800);
-    $('.Show').show(0);
-    $('.Hide').hide(0);
+  jQuery('.Hide').click(function() {
+    jQuery('#target').hide(800);
+    jQuery('.Show').show(0);
+    jQuery('.Hide').hide(0);
   });
