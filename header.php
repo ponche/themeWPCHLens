@@ -70,5 +70,5 @@
 	<?php do_action('sydney_after_hero'); ?>
 
 	<div id="content" class="page-wrap">
-		<div class="container content-wrapper">
+		<div class="container-flex content-wrapper">
 			<div class="row">	
