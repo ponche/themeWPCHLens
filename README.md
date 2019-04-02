@@ -14,5 +14,6 @@
 * canvasio3D Light
 * Classic Editor
 * Duplicator 
-
+* WP Mail Bank 
+* Contact Form 7 
  
