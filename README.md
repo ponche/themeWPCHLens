@@ -9,11 +9,11 @@
 
 ## Plugin utiliser dans le thème
 
-* pods
-* Social Pug
-* canvasio3D Light
-* Classic Editor
-* Duplicator 
-* WP Mail Bank 
-* Contact Form 7 
+* [pods](https://pods.io/)
+* [Social Pug](https://devpups.com/social-pug/)
+* [canvasio3D Light](http://www.canvasio3d.com/canvasio3d-light/)
+* [Classic Editor](https://wordpress.org/plugins/classic-editor/)
+* [Duplicator]
+* [WP Mail Bank]
+* [Contact Form 7]
  
