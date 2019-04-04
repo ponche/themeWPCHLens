@@ -142,40 +142,9 @@ Les parkings seront gratuits. Si aujourd’hui Lille, Arras ou d’autres Centre
                         <h3>D’autres questions ?</h3>
                         <p>Faîtes part de vos remarques, poser une question, faire une demande d’éclaircissement ou vous exprimer simplement sur ce projet ?</p>
                     </div>
-                    <form class="col-lg-6 form">
-                        <div class="form-group">
-                            <div class="row">
-                                <div class="col">
-                                    <input type="text" class="form-control" placeholder="Nom">
-                                </div>
-                                <div class="col">
-                                    <input type="text" class="form-control" placeholder="Prénom">
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Adresse email">        
-                        </div>
-                                  
-                        <div class="form-group">
-                            <select id="inputState" class="form-control">
-                                <option selected>Choisissez un objet...</option>
-                                <option>Projet du nouvel hopital: Poser une question</option>
-                                <option>Projet du nouvel hopital: Donner son avis</option>
-                                <option>Contacter le service communication</option>
-                                <option>Déposer une candidature spontanée</option>
-                            </select>
-                        </div>
-        
-                        <div class="form-group">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-        
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-primary">Envoyer</button>
-                        </div>
-                    </form>
+                    <div class="col-lg-6">
+                      <?php echo do_shortcode('[contact-form-7 id="143" title="Formulaire FAQ"]') ; ?>
+                    </div>
                 </div>
     </div>
 </section>
