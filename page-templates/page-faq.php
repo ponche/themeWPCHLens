@@ -19,7 +19,7 @@ Template Name: Page FAQ
             <p class="faq-text">Retrouvez les questions fréquemment posées et leurs réponses.</p>
 
        
-            <nav class="tags-nav faq">
+            <nav class="tags-nav faq ch-flex-wrap">
               <a href="#" class="tag-link filter">Patrimoine</a> <a href="#" class="tag-link filter">Délais</a> <a href="#" class="tag-link">Financement</a> <a href="#" class="tag-link">Perturbations</a> <a href="#" class="tag-link">Accessibilité</a> <a href="#" class="tag-link">Services</a>
             </nav>
 

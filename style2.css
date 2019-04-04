@@ -163,3 +163,9 @@ PAGE D'ACTUALITE
 .entry-header{
     display: none;
 }
+
+/* Custom style globaux ch*/ 
+
+.ch-flex-wrap{
+    flex-wrap: wrap; 
+}
