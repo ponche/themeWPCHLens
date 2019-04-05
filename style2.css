@@ -163,6 +163,10 @@ PAGE D'ACTUALITE
 .entry-header{
     display: none;
 }
+.item-home-page
+{
+    padding: 20px ; 
+}
 
 /* Custom style globaux ch*/ 
 
