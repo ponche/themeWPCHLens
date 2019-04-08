@@ -11,14 +11,14 @@ Template Name: Page Présentation
 
 
 
-    <br><br>
+    <br><br> <!-- why there two BR ? -->
     <!-- Title and paragraph -->
     <div class="container">
         <div class="row">
-            <div class="col-8">
+            <div class="col-12 col-lg-8">
                 <h1>Présentation</h1>
             </div>
-            <div class="col-4 end-col">
+            <div class="col-12 col-lg-8 end-col">
                 le projet en chiffre
                 <i class="far fa-question-circle fa-2x Show"></i>
                 <i class="far fa-question-circle fa-2x Hide"></i>
@@ -30,7 +30,7 @@ Template Name: Page Présentation
     <!-- Architect -->
     <div class="container bg-test">
         <div class="row">
-            <div class="col-6 text-title-div">
+            <div class="col-12 col-lg-6 text-title-div">
                 <h2>Architecture</h2>
                 <p class="space-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex error dolorum
                     modi doloremque fugit
@@ -56,15 +56,15 @@ Template Name: Page Présentation
                 </p>
                 <button type="button" class="btn btn-outline-secondary">Répartition des bâtiments</button>
             </div>
-            <div class="col-6">
-                <img src="<?= get_stylesheet_directory_uri(); ?>/images/presentation/architecture.png" alt="test" width="600" height="800">
+            <div class="col-12 col-lg-6">
+                <img src="<?= get_stylesheet_directory_uri(); ?>/images/presentation/architecture.png" alt="test">
             </div>
         </div>
     </div>
     <!-- Techno -->
     <div class="container bg-test-1">
         <div class="row justify-content-md-center">
-            <div class="col-6 text-title-div">
+            <div class="col-12 col-lg-6 text-title-div">
                 <h2>Technologie</h2>
                 <p class="space-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex error dolorum
                     modi doloremque fugit
@@ -97,15 +97,15 @@ Template Name: Page Présentation
                     devient acteur de sa santé)
                 </p>
             </div>
-            <div class="col-6">
-                <img src="<?= get_stylesheet_directory_uri(); ?>/images/presentation/technologie.jpg" alt="test" width="600" height="800">
+            <div class="col-12 col-lg-6">
+                <img src="<?= get_stylesheet_directory_uri(); ?>/images/presentation/technologie.jpg" alt="test">
             </div>
         </div>
     </div>
     <!-- Accessibilité -->
     <div class="container bg-test-2">
         <div class="row justify-content-md-center">
-            <div class="col-6 text-title-div">
+            <div class="col-12 col-lg-6 text-title-div">
                 <h2>Accessibilité</h2>
                 <p class="space-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex error dolorum
                     modi doloremque fugit
@@ -141,15 +141,15 @@ Template Name: Page Présentation
                     </button>
                 </div>
             </div>
-            <div class="col-6">
-                <img src="<?= get_stylesheet_directory_uri(); ?>/images/presentation/access.jpg" alt="test" width="600" height="800">
+            <div class="col-12 col-lg-6">
+                <img src="<?= get_stylesheet_directory_uri(); ?>/images/presentation/access.jpg" alt="test" >
             </div>
         </div>
     </div>
     <!-- Paysage  -->
     <div class="container bg-test-3">
         <div class="row justify-content-md-center">
-            <div class="col-6 text-title-div">
+            <div class="col-12 col-lg-6 text-title-div">
                 <h2>Paysage</h2>
                 <p class="space-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex error dolorum
                     modi doloremque fugit
@@ -187,8 +187,8 @@ Template Name: Page Présentation
                     </a>
                 </div>
             </div>
-            <div class="col-6">
-                <img src="<?= get_stylesheet_directory_uri(); ?>/images/presentation/paysage.jpg" alt="test" width="600" height="800">
+            <div class="col-12 col-lg-6">
+                <img src="<?= get_stylesheet_directory_uri(); ?>/images/presentation/paysage.jpg" alt="test" >
             </div>
         </div>
     </div>
