@@ -122,7 +122,36 @@ Les parkings seront gratuits. Si aujourd’hui Lille, Arras ou d’autres Centre
                       Les loosois qui ont l’habitude de passer par la rue Faidherbe puis par le petit chemin de Lens en passant sous l’A21 pourront toujours le faire. La route sera dévoyée et contournera le Nouvel Hôpital de Lens le long de la trame verte.
                     </div>
                   </div>
-          </div>
+
+                  <!-- test loop wordpress --> 
+
+                  <?php 
+                  // I create my params array
+                  $params = array(
+                    'limit' => 15
+                  );
+                  // I create a faqs pods to find the customs type FAQ
+                  $mypod = pods('faq', $params) ; 
+                  var_dump($mypod) ; // I do not see the content of that var, Why the var_dump() do no work ?  
+                  // var_dump($mypod->fetch()) ; 
+                  while( $mypod->fetch() )
+                  {
+                    ?>
+                      <div class=" card [ is-collapsed ] ">
+                        <div class="card__inner [ js-expander ]">
+                          <span>q<?php echo $mypod->diplay('the_title') ; ?></span>
+                        </div>
+                        <div class="card__expander">
+                        <i class="fa fa-times [ js-collapser ]"></i>
+                         a<?php echo $mypod->display('the_article') ; ?>
+                        </div>
+                      </div>
+                  <?php
+                  }
+                  ?>
+
+        
+            </div>
 
     
 
