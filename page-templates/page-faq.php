@@ -132,8 +132,6 @@ Les parkings seront gratuits. Si aujourd’hui Lille, Arras ou d’autres Centre
                   );
                   // I create a faqs pods to find the customs type FAQ
                   $mypod = pods('faq', $params) ; 
-                  var_dump($mypod) ; // I do not see the content of that var, Why the var_dump() do no work ?  
-                  // var_dump($mypod->fetch()) ; 
                   while( $mypod->fetch() )
                   {
                     ?>
