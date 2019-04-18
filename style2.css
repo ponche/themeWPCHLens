@@ -42,9 +42,7 @@ PAGE D'ACCUEIL
     padding: 2%;
     display: grid;
 }
-#home-bloc-yellow h2{
 
-}
 div#content.page-wrap{
     width:100%;
     padding: 0;
@@ -98,11 +96,7 @@ div#content.page-wrap{
 #blocs-yellow{
     margin: 0% 6% 0% 6%;
 }
-#yellow-image{
-}
-#yellow-description{
-    
-}
+
 #yellow-image img{
     width: 100%;
 }
