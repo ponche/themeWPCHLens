@@ -19,9 +19,6 @@ Template Name: Page FAQ
             <p class="faq-text">Retrouvez les questions fréquemment posées et leurs réponses.</p>
 
        
-            <nav class="tags-nav faq ch-flex-wrap">
-              <a href="#" class="tag-link filter">Patrimoine</a> <a href="#" class="tag-link filter">Délais</a> <a href="#" class="tag-link">Financement</a> <a href="#" class="tag-link">Perturbations</a> <a href="#" class="tag-link">Accessibilité</a> <a href="#" class="tag-link">Services</a>
-            </nav>
 
             
         </div>
@@ -137,11 +134,11 @@ Les parkings seront gratuits. Si aujourd’hui Lille, Arras ou d’autres Centre
                     ?>
                       <div class=" card [ is-collapsed ] ">
                         <div class="card__inner [ js-expander ]">
-                          <span>q<?php echo $mypod->diplay('the_title') ; ?></span>
+                          <span><?php echo $mypod->display('post_title') ; ?></span>
                         </div>
                         <div class="card__expander">
                         <i class="fa fa-times [ js-collapser ]"></i>
-                         a<?php echo $mypod->display('the_article') ; ?>
+                         <?php echo $mypod->display('post_content') ; ?>
                         </div>
                       </div>
                   <?php
@@ -151,11 +148,6 @@ Les parkings seront gratuits. Si aujourd’hui Lille, Arras ou d’autres Centre
         
             </div>
 
-    
-
-          <nav class="tags-nav faq col-lg-12">
-            <a href="#" class="tag-link">Download More</a> 
-         </nav>
 
 </section>  
 <section class="container-fluid faq"> 
