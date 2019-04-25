@@ -167,3 +167,11 @@ PAGE D'ACTUALITE
 .ch-flex-wrap{
     flex-wrap: wrap; 
 }
+
+
+/* fixed scrolling horizontal */ 
+body
+{
+    width: 100% ; 
+    overflow-x: hidden; 
+}
