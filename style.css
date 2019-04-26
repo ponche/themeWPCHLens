@@ -1450,8 +1450,7 @@ Widgets
 --------------------------------------------------------------*/
 	.widget-area .widget {
 		position: relative;
-		margin-bottom: 30px;
-		padding-top: 50px;
+		margin-bottom: 10px;
 	}
 	.widget-area .widget:before {
 		content: "";
@@ -1725,7 +1724,7 @@ Portfolio single
 Footer
 --------------------------------------------------------------*/
 	.footer-widgets {
-		padding: 95px 0;
+		padding: 1px 0;
 		background-color: #252525;
 	}
 	.footer .copyr {
@@ -2114,9 +2113,6 @@ Panels
 .sydney_contact_info_widget span {
 	color: #01a7a5;
 	margin-right: 15px;
-}
-.sydney_contact_info_widget div {
-	margin-bottom: 15px;
 }
 /* Icon List
 -------------------------------------------------------------- */
