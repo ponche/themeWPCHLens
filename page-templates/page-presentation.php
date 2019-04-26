@@ -10,10 +10,8 @@ Template Name: Page Présentation
 
 
 
-
-    <br><br> <!-- why there two BR ? -->
-    <!-- Title and paragraph -->
-    <div class="container">
+<div class="col-12">
+    <div class="col-12">
         <div class="row">
             <div class="col-12 col-lg-8">
                 <h1>Présentation</h1>
@@ -192,7 +190,7 @@ Template Name: Page Présentation
             </div>
         </div>
     </div>
-    </div>
+</div>
 
 <?php get_footer() ; ?>
     

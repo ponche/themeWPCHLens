@@ -126,8 +126,7 @@ Les parkings seront gratuits. Si aujourd’hui Lille, Arras ou d’autres Centre
                   // I create my params array
                   $params = array(
                     'limit' => 15
-                  );
-                  // I create a faqs pods to find the customs type FAQ
+                  );    
                   $mypod = pods('faq', $params) ; 
                   while( $mypod->fetch() )
                   {
