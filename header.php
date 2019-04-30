@@ -29,8 +29,6 @@
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'sydney' ); ?></a>
 
-	<?php do_action('sydney_before_header'); //Hooked: sydney_header_clone() ?>
-
 	<header id="masthead" class="site-header" role="banner">
 		<div class="header-wrap">
             <div class="container">

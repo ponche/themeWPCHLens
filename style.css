@@ -539,7 +539,7 @@ Header
 		max-height: 100px;
 	}
 	.site-header {
-		position: fixed;
+		position: sticky;
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -582,9 +582,9 @@ Header
 	.site-description:empty {
 		margin: 0;
 	}	
-	.site-header.fixed {
+	/* .site-header.fixed {
 		position: fixed;
-	}
+	} */
 
 	.site-header .col-md-4,
 	.site-header .col-md-8 {
