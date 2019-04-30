@@ -413,11 +413,6 @@ require get_template_directory() . '/inc/styles.php';
 require get_template_directory() . '/inc/theme-info.php';
 
 /**
- * Woocommerce basic integration
- */
-require get_template_directory() . '/inc/woocommerce.php';
-
-/**
  * Upsell
  */
 require get_template_directory() . '/inc/upsell/class-customize.php';
@@ -485,14 +480,21 @@ add_action( 'admin_init', array( 'PAnD', 'init' ) );
 add_action( 'admin_notices', 'sydney_welcome_admin_notice' );
 
 
-// // disable file editing in the admin 
-// define( 'DISALLOW_FILE_EDIT', true) ; 
+// disable file editing in the back-office 
+define( 'DISALLOW_FILE_EDIT', true) ; 
 
 
-// // Test pour Jquery 
-// function typed_init() 
-// {
-// 	echo '<script>
-// 	jQuery(function'
-// }
+// reset style CSS for contact form seven
+add_action( 'wp_print_styles', 'wps_deregister_styles', 100 );
+function wps_deregister_styles() {
+    wp_deregister_style( 'contact-form-7' );
+}
 
+
+
+add_filter( 'wpcf7_form_class_attr', 'your_custom_form_class_attr' );
+
+function your_custom_form_class_attr( $class ) {
+	$class .= ' foo bar';
+	return $class;
+}
