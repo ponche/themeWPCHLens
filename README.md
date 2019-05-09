@@ -10,10 +10,19 @@
 ## Plugin utiliser dans le thème
 
 * [pods](https://pods.io/) v2.7.12
-* [Social Pug](https://devpups.com/social-pug/) v1.5.1
-* [canvasio3D Light](http://www.canvasio3d.com/canvasio3d-light/) v1.3.7
-* [Classic Editor](https://wordpress.org/plugins/classic-editor/) v1.4
+* ~~[Classic Editor](https://wordpress.org/plugins/classic-editor/) v1.4~~
 * [Duplicator](https://snapcreek.com/duplicator/duplicator-free/) v1.3.10
-* [WP Mail Bank](https://tech-banker.com/wp-mail-bank/) v4.0.5
+* ~~[WP Mail Bank](https://tech-banker.com/wp-mail-bank/) v4.0.5~~
 * [Contact Form 7](https://contactform7.com/) v5.1.1
+* [Elementor](https://elementor.com/) v2.5.14
+* [Rich Event Timeline](https://rich-web.org/wp-event-timeline/) v1.1.3
+* [Yoast SEO](https://yoast.com/wordpress/plugins/seo/#utm_source=yoast-seo&utm_medium=software&utm_campaign=wordpress-general) v11.1.1
+* ~~[WordFence Security](https://www.wordfence.com/) v7.2.5~~
+
+
+## Les choses a faire 
+
+- integré un formulaire de contact sans avoir de problèmes de styles 
+- article en entier dans le pods presentation  ( _page single.php_ ) . 
+
  
