@@ -10,10 +10,8 @@ Template Name: Page Presentation
 
 <div class="col-12">
     <div class="container">
-        <!-- contenu de la page --> 
         
 
-        <!-- la boucle pods --> 
         <?php
         $params = array(
             
@@ -24,7 +22,6 @@ Template Name: Page Presentation
 
         
         ?>
-        <!-- un pod -->
         <div class="row">
             <div class="col-12 col-lg-8">
             <h2><?php echo $podPresentation->display('post_title') ; ?></h2>
@@ -33,11 +30,10 @@ Template Name: Page Presentation
             </p>
             </div>
             <div class="col-12 col-lg-4">
-                <img src="<?php echo $podPresentation->display('photo') ; ?>" alt="photo projet">
+                <img src="<?php echo $podPresentation->display('photo') ; ?>" alt="<?= $podPresentation->display('messagealtphoto') ; ?>">
             </div>
         </div>
 
-        <!-- fin de la boucle pods --> 
         <?php
         }
         ?>
