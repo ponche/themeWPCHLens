@@ -34,8 +34,7 @@ Template Name: Page FAQ
                   <?php 
                   // I create my params array
                   $params = array(
-                    
-                    
+                    'limit' => 15
                   );    
                   $mypod = pods('faq', $params) ; 
                   while( $mypod->fetch() )
@@ -62,7 +61,19 @@ Template Name: Page FAQ
 <section class="container-fluid faq"> 
 <div class="container form">      
 
-    
+    <div class="row justify-content-around">
+
+            <div class="row justify-content-around">
+                    <div class="col-lg-4 text-center">
+
+                        <h3>D’autres questions ?</h3>
+                        <p>Faîtes part de vos remarques, poser une question, faire une demande d’éclaircissement ou vous exprimer simplement sur ce projet ?</p>
+                    </div>
+                    <div class="col-lg-6">
+                      <?php echo do_shortcode('[contact-form-7 id="143" title="Formulaire FAQ"]') ; ?>
+                    </div>
+                </div>
+    </div>
 </section>
 
 <?php 
